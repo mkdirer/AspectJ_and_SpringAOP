@@ -1,4 +1,4 @@
-package org.example.Aspects;
+package org.example;
 
 import org.example.MonitorPerformance;
 

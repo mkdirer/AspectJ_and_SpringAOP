@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Aspects.ExampleService;
-
 public class Main {
     public static void main(String[] args) {
         ExampleService exampleService = new ExampleService();
