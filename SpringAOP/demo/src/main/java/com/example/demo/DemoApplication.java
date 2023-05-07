@@ -15,7 +15,7 @@ public class DemoApplication {
 
         User user1 = new User("user1", "password", "kowalski@gmail.com");
         userService.saveUser(user1);
-
+        System.out.println();
         User user2 = new User("user2", "", "");
         userService.saveUser(user2);
     }

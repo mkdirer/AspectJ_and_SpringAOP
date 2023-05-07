@@ -28,7 +28,7 @@ public class ValidationAspect
         }
         else
         {
-            System.out.println( pjp.toString() + " doesn't saved user due to invalid user data");
+            System.out.println( pjp.getSignature() + " doesn't saved user due to invalid user data");
         }
     }
 }

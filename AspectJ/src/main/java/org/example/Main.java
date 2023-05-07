@@ -9,11 +9,21 @@ public class Main {
             exampleService.longRunningMethod();
             exampleService.anotherLongRunningMethod();
             System.out.println();
+        }
+        catch (Exception e)
+        {
+        }
+
+        try
+        {
             exampleService.throwingMethod();
         }
-        catch (InterruptedException e)
+        catch (Exception e)
         {
-            e.printStackTrace();
+        }
+        try
+        {
+            exampleService.throwingMethod();
         }
         catch (Exception e)
         {
